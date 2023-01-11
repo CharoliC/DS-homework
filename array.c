@@ -2,3 +2,5 @@
 #include <string.h>
 
 int master;
+int fix;
+
