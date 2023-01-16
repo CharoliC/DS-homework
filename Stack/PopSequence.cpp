@@ -9,16 +9,15 @@ Stack s;
 
 void Judge(int *inSeq, int n);
 
-int main()
-{
+int main() {
     int inSeq[1000];
-    int m, n, k, i;
+    int m, n, k;
     scanf("%d%d%d", &m, &n, &k);
     
     s.size = m;
 
     while(k--) {
-        for(i=0; i<n; i++) {
+        for(int i=0; i<n; i++) {
             scanf("%d", &inSeq[i]);
         }
         Judge(inSeq, n);
