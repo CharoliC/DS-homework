@@ -1,3 +1,5 @@
+/*输出最后会有一个多余的空格, 如果要过OJ需要去掉*/
+
 #include <cstdio>
 #include <stdlib.h>
 

@@ -9,16 +9,15 @@ void Union(UFset &S, int rt1, int rt2);
 int Find(UFset &S, int x);
 
 int main() {
-    int n, k;
-    int c1, c2;
-    char op;
-
+    int n;
     scanf("%d", &n);
 
     //s[0] reserved (because computers numbered from 1 to N)
     UFset s = (int*)malloc((n + 1) * sizeof(int));
     memset(s, -1, (n + 1) * sizeof(int));
 
+    int op;
+    int c1, c2;
     while((op = getchar()) != 'S') {
         switch(op) {
             case 'I':
@@ -39,7 +38,7 @@ int main() {
     }
 
     //count components
-    k = 0;
+    int k = 0;
     for(int i=1; i<=n; i++) {
         if(s[i] < 0) {
             k++;

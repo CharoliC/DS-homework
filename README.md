@@ -1,5 +1,5 @@
 # DS-homework
-ZJU数据结构基础PTA作业（复习重写，没交OJ）
+ZJU数据结构基础PTA作业（复习重写，部分没交OJ）
 
 
 | 目录  |           题目           |                     内容                     |
@@ -10,5 +10,7 @@ ZJU数据结构基础PTA作业（复习重写，没交OJ）
 |  HW4  |        Isomorphic        |              两个二叉树是否同构              |
 |  HW4  |   ZigZagging on a Tree   |                之字遍历二叉树                |
 |  HW7  |      File Transfer       | 构造并查集，进行合并和查找，最后数出集合数目 |
+|  HW8  |   Is Topological Order   |          判断某个序列是否是拓扑排序          |
+|  HW8  |    Hamiltonian Cycle     |         判断某个序列是否是哈密顿回路         |
 | bonus | One Way In, Two Ways Out |      输入受限的双端队列能否弹出特定序列      |
 | labs  |     Tree Traversals      |  用不完整的前中后序构造二叉树，然后层序遍历  |

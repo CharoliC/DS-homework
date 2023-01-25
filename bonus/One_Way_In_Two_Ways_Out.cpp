@@ -7,33 +7,33 @@ typedef struct {
     int rear; //in, out
 }Queue;
 
-Queue q;
-int inSeq[1000];
-
-void Judge(int *checkSeq, int n);
+void Judge(int* inSeq, int *checkSeq, int n);
 
 int main() {
-    int checkSeq[1000];
     int n, k;
     scanf("%d%d", &n, &k);
 
+    int *inSeq;
+    inSeq = (int*)malloc(n * sizeof(int));
     for(int i=0; i<n; i++) {
         scanf("%d", &inSeq[i]);
     }
     
+    int *checkSeq;
+    checkSeq = (int*)malloc(n * sizeof(int));
     while(k--) {
         for(int i=0; i<n; i++) {
             scanf("%d", &checkSeq[i]);
         }
-        Judge(checkSeq, n);
+        Judge(inSeq, checkSeq, n);
     }
 }
 
-void Judge(int *checkSeq, int n) {
-    int i, j;
-
-    i = j = 0;
+void Judge(int* inSeq, int *checkSeq, int n) {
+    int i = 0, j = 0;
+    Queue q;
     q.front = q.rear = 0;
+    
     while(i < n) {
         //printf("rear enqueue %d\n", inSeq[i]);
         q.data[q.rear++] = inSeq[i++];
