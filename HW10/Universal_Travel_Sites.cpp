@@ -73,7 +73,7 @@ void EdmondsKarp(Graph &G, int src, int dst) {
         curflow[src] = INFTY;
         q.push(src);
 
-        //BFS, find the path to dst
+        //BFS, find the path from src to dst
         while(!q.empty()) {
             int v = q.front();
             q.pop();
