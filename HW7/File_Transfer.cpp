@@ -4,7 +4,6 @@
 
 typedef int *UFset;
 
-void Init(UFset &S);
 void Union(UFset &S, int rt1, int rt2);
 int Find(UFset &S, int x);
 

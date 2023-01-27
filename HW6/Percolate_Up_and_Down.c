@@ -23,7 +23,7 @@ void Insert(ElementType X, PriorityQueue H)
     PercolateUp(p, H);
 }
 
-ElementType DeleteMin( PriorityQueue H ) 
+ElementType DeleteMin(PriorityQueue H)
 { 
     ElementType MinElement; 
     MinElement = H->Elements[1];
