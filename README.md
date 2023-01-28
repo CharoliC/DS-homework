@@ -16,5 +16,7 @@ ZJU数据结构基础PTA作业（复习重写，部分没交OJ）
 |  HW8  |      Hamiltonian Cycle      |             判断某个序列是否是哈密顿回路             |
 | HW10  |   Universal Travel Sites    |                      最大流问题                      |
 | HW10  |      Uniqueness of MST      |  判断最小生成树的唯一性，如果不存在，计算连通分量数  |
+| HW12  |     Iterative Mergesort     |                 非递归版本的归并排序                 |
+| HW12  |   Insertion or Heap Sort    | 通过排序中间结果，判断排序方法（插入排序 or 堆排序） |
 | bonus |  One Way In, Two Ways Out   |          输入受限的双端队列能否弹出特定序列          |
 | labs  |       Tree Traversals       | 由不完整的前，中，后序判断二叉树的存在性，存在则输出 |
