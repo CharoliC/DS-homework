@@ -20,4 +20,6 @@ ZJU数据结构基础PTA作业（复习重写，部分没交OJ）
 | HW12  |   Insertion or Heap Sort    | 通过排序中间结果，判断排序方法（插入排序 or 堆排序） |
 | HW14  |   Hashing - Hard Version    |                给出哈希表，求输入序列                |
 | bonus |  One Way In, Two Ways Out   |          输入受限的双端队列能否弹出特定序列          |
-| labs  |       Tree Traversals       | 由不完整的前，中，后序判断二叉树的存在性，存在则输出 |
+| bonus |        Stack of Hats        |                         排序                         |
+| labs  |      *Tree Traversals*      | 由不完整的前，中，后序判断二叉树的存在性，存在则输出 |
+| labs  |    *Ambulance Dispatch*     |       最短路径问题，需要对多个最短路径进行筛选       |
